@@ -1,0 +1,189 @@
+/*BOTON DEL NAVBAR*/
+#btnRegistrar{
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+}
+/*CONTENEDORES*/
+.contenedorMayor{
+    display: flex;
+    justify-content: flex-start;
+    justify-content:space-around;
+    margin-left: 80px;
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(237, 238, 237);
+}
+
+.contenedorProducto{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    height: 300px;
+    width: 150px;
+    background-color:#aaaaaa;
+}
+
+.contenedorTotal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedorInfo{
+    display: flex;
+    background-color: rgb(237, 238, 237);
+    width: 100%;
+}
+
+.subContenedorInfo{
+    width: 50%;
+    background-color: rgb(237, 238, 237);
+
+}
+
+.total{
+    background-color: rgb(237, 238, 237);
+}
+
+/*FUENTES TITULOS Y SUBTITULOS, MEDIDAS ESPECIFICAS, DISEÑO DE BOTONES, ETC*/
+.subtitulo{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.fuente{
+    font-size: 17px;
+    font-style: normal;
+}
+
+.fuenteTitulo{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.medidaImagen{
+    width: 100px;
+    height: 150px;
+    margin: 25px;
+   
+}
+
+.medidaImgBombacha{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+.medidaOfertas{
+    width: 100px;
+    height: 125px;
+    margin: 25px;
+}
+
+.fuenteProducto{
+    text-align: center;
+    font-size: 20px;
+}
+
+.boton{
+    color:black;
+    width: 120px;
+    align-self: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tamañoImCarrusel{
+  width: 1500px;
+  height: 600px;
+}
+
+.tamañoIcono{
+    width: 15px;
+    height: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.tituloInfo{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+/*VENTANA FLOTANTE*/
+.ocultar{
+    display: none;
+}
+
+.ventanaFlotante{
+    background-color: gray;
+    width: 70%;
+    height: 60%;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    position: absolute;
+    left: 14%;
+    top: 15%;    
+    filter:alpha;
+}
+
+.tamañoCruz{
+    width: 30px;
+    height: 30px;
+}
+
+#cerrar{
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.tamañoInput{
+    width: 60%;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.botonRegistrar{
+    width: 30%;
+}
+
+/*LOGO FLOTANTE WHATSAPP*/
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
+}
+
+/*BOTON VER MAS/ VER MENOS*/
+.verMas{
+    display: none;
+}
+
+.btnVerMas{
+    width: 75%;
+    border-radius: 20px;
+}
+
+.contenedorBtnVerMas{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:  rgb(237, 238, 237);
+}
